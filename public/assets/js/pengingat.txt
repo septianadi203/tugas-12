@@ -1,0 +1,235 @@
+//-Output adalah sebuah tampilan program yang
+   biasanya digunakan untuk memperlihatkan hasil akhir.
+//-Output biasanya ditampilkan dalam bentuk teks dengan fungsi print().
+//-Ada 4 cara menampilkan output pada Javascript:
+
+Menggunakan Fungsi console.log();
+Menggunakan Fungsi alert();
+Menggunakan Fungsi document.write();
+Menggunakan innerHTML.
+//------------------------------------------------------------------------------------------//
+
+//alert("hallo saya batch 43")
+//console.log("hello world")
+//document.write("Hallo Batch 43")
+//document.writeln("Hallo Batch 43")
+
+//variabel
+//var, let, const.
+//--kata_kunci nama_variabel = data;--//
+//--const nama_variabel = "data"--//
+//--------contoh -- let name ="jhon"--------//
+//--let itu deklarasi variable--//
+//--name itu identifiler --//
+//--jhon itu value/data nya --//
+
+
+//data yg bisa diubah
+//var gelas = "susu"
+//var gelas ="air putih"
+
+//let kirim = "nasi putih"
+//---- merubah"let gausah diketik let lagi jadi 'kirim = "nasi goreng" ' ""
+//let kirim = "nasi goreng"
+
+
+//data yg tidak bisa di ubah
+//constant
+//const nama = "adi"
+//nama = "nugroho"
+//--data pakai const gabakal bisa berubah
+
+//type data
+//data primitif dan non primitif
+    //type data primitif --> satu nilai 
+    //---Tipe data primitif hanya dapat menyimpan satu nilai pada satu waktu dan
+         tidak dapat diubah menggunakan cara yang sama seperti tipe data non-primitif.
+         Tipe data Primitif akan dianggap sama jika nilainya sama.
+
+    //string-->data "apapun yg didalam sini adalah string"
+    //int--> 1,2,3,4,5
+    //booleap--> (true dan false)
+    //undefined -->belum dideklarasikan
+    //null-->tidak ada datanya
+
+//type data non-primitif -->
+    //---Tipe data non-primitif dapat menyimpan lebih dari satu nilai pada satu waktu dan
+         dapat diubah. Tipe data non-primitif akan dianggap berbeda meskipun nilainya sama 
+         dan dalam urutan yang sama.
+         //-----------------------contoh--------------------------//
+           //const mahasiswa1 = ['renova', 'muhamad', 'reza'];
+             const mahasiswa2 = ['renova', 'muhamad', 'reza'];
+             console.log(mahasiswa1 === mahasiswa2); // false
+
+             const binatang1 = ['kucing', 'kelinci', 'ikan'];
+             const binatang2 = binatang1;
+             console.log(binatang1 === binatang2); // true
+
+             //--dianggap sama jika merujuk ke array/objek yg sama--//
+        //------------------------------------------------------//
+        //->object
+        //->array ->belom
+
+        // let dataDiri = {
+        //     nama: "Septian",
+        //     alamat: "Tangerang"
+        // }
+
+        // dua suku kata
+        // let darahMuda = benar
+        //let darah_muda = benar
+        //let darah-muda = salah->error
+
+        //pake bahasa inggris
+        //const increment
+
+//operator
+//operator aritmatika
+//let angkaAwal = 10
+//let angkaTambah =20
+
+//console.log(angkaAwal+angkaTambah)
+//bisa juga
+//bikin tambahan let hasil = angkaAwal + angkaTambah
+//jadi console.log=(hasil)
+
+
+//let myName = "Septian"
+//let myJob = "selai kacang"
+//let myIntro = " nama saya " + myName + " pekerjaan saya menjadi " + myJob -> cara 1
+//let myIntro = `nama saya ${myName} pekerjaan saya menjadi ${myJob}` ->cara 2
+
+
+// pngkondisian
+//if else
+// const umur = 17
+
+// if(umur === 17) {
+//     console.log("mas dandi umurnya dibawah 17 tahun")
+// }
+// else {
+//     console.log("umur mas dandi diatas 17")
+// }
+// == , !=(tidak sama dengan) , ===
+
+//function
+// 1.function biasa
+// function increment(){
+//     let kota = "jakarta"
+//     return kota
+// }
+
+// increment()
+
+// const decrement = function() {
+//     console.log("jakarta")
+// }
+
+// decrement
+
+// const hasil = () => {
+//     console.log("halo")
+// }
+
+// hasil()
+
+//paramater
+// function sayHello(nilaiAwal, nilaiAkhir) {
+//     return nilaiAwal + nilaiAkhir
+// }
+
+//<-------------------------------------------------------------->
+
+
+    function getData(){
+    
+    let name = document.getElementById("name").value
+    let email = document.getElementById("email").value
+    let phoneNumber = document.getElementById("phone").value
+    let subject = document.getElementById("subject").value
+    let message = document.getElementById("message").value
+
+    if(name =="") {
+        return alert("Nama tidak boleh kosong")
+    } else if(email == "") {
+        return alert("email tidak boleh kosong")
+    } else if(phoneNumber == ""){
+        return alert("telepon tidak boleh kosong")
+    } else if(subject == ""){
+        return alert("subject tidak boleh kosong")
+    } else if (message == ""){
+        return alert("pesan tidak boleh kosong")
+    }
+
+    let emailReciver = "septianadi8892@gmail.com"
+
+    let mailTo = document.createElement('a')
+    mailTo.href = `mailTo:${emailReciver}?subject=${subject}&body=Halo nama saya ${name}, ${message}, nomor telepon saya ${phoneNumber}`
+    mailTo.click()
+
+    let users = {
+        myName: name,
+        myEmail: email,
+        myPhone: phoneNumber,
+        mySubject: subject,
+        myMessage: message
+    }
+
+
+
+
+    }
+
+<----------------------------------------------------------------->
+
+    // let users = {
+    //     myName: name,
+    //     myEmail: email,
+    //     myPhone: phoneNumber,
+    //     mySubject: subject,
+    //     myMessage: message
+    // }
+    
+    // --> di let users bisa pakai ini juga
+    
+//     console.log(name)
+//     console.log(email)
+//     console.log(phoneNumber)
+//     console.log(subject)
+//     console.log(message)
+
+
+
+//---------------------------------------------
+
+
+// let myFriends = [
+//     {
+//         name: "Yusuf",
+//         age: 23,
+//         ismarried: false
+//     },
+//     {
+//         name: "Budi",
+//         age: 20,
+//         ismarried: true
+//     }
+// ]
+//--
+// console.table(myFriends[0])
+//--
+ // let checkbox = document.getElementsByName("technologies")
+ //--
+ // let tech = "";
+
+    // for(var j = 0; j < checkbox.length; j++){
+    //     if(checkbox[j].checked){
+    //         tech = tech + checkbox[j].value +", ";
+    //     }
+    // }
+
+    // document.getElementById("technologies").innerText = tech.replace(/,\s*$/, "")
+//--
+
+
+ 

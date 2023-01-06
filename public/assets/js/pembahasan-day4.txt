@@ -1,0 +1,136 @@
+
+
+
+
+
+
+
+
+//---------let array = ["dandi", 17, false]
+
+//console.log(array)
+//console.table(array)
+//-- untuk menampilkan index ke-2 --
+//dimulai dari 0,1,2,dst 
+
+//console.table(array[1])
+
+
+//--------object
+// let myBio = {
+//     name: "dandi saputra",
+//     age:17,
+//     isMarried: false
+//     //isMarried: {
+//     // age2: 24 
+//    // }
+// }
+
+// console.table(myBio)
+// //untuk memanggil secara spesifik
+// console.table(`apakah mas dandi sudah menikah ? ${myBio.isMarried}`)
+//memanggil yg didalam isMarried
+//console.table(`apakah mas dandi sudah menikah ? ${myBio.isMarried.age2}`)
+
+//-------array of object
+// let myFriends = [
+//     {
+//         name: "nima",
+//         age: 23,
+//         address: "Tangerang",
+//         isMarried: true
+//     },
+//     {
+//         name: "Agung",
+//         age: 32,
+//         address: "Jakarta"
+//         isMarried: true
+//     }
+// ]
+
+// //untuk memanggil myFriends lalu index ke-1(yg {nima}), kalo ke-2 (yg{agung}) lalu panggil value(address)
+// dimulai dari 0,1,2,3,4, dst
+// console.table(myFriends[0].address)
+
+// function getData(event) {
+        //---agar tidak relog
+        //event.preventDefault()
+    
+//     let title = document.getElementById("nama-id-nya").value(value itu dapat id)
+//     let content = document.getElementById("nama-id-nya").value(value itu dapat id)
+//     let image = document.getElementById("nama-id-nya").files(files dapet data file id)
+
+
+//     // let addBlog = {
+//     //     title,
+//     //     content,
+//     //     image
+//     // }
+
+
+        //---------------------------------------------------------------------------
+//     ---_image = URL.createObjectURL(image[0])
+//     --_console.table(image)
+//     -data dari image yg diupload dari luar disalurkan melalui URL ke dalam
+//     let example = document.getElementById("example")
+//    -tanda + itu untuk menambahkan data baru tanpa menghilangkan data lama
+//     example.innerHTML += `
+//     <div>
+//        <img src=${images} />
+//     </div>
+    
+//     `
+        //---------------------------------------------------------------------------
+
+
+
+
+//    }
+
+//--------Perulangan
+// 1.Nilai awal
+// 2.Kondisi
+// 3.ini statment dan post statment
+
+// let hello = "Hello World"
+
+// for(let i = 1; i<=10; i++){
+//     console.table(hello)
+//     // di console nya tampil ga cuma angka tapi 10x
+//     console.table(`Hello World ${i}`)
+// }
+
+//---------------------------------------------------------------------------------
+
+
+// let blogs = []
+
+// function getData() {
+        //---agar tidak relog
+        //event.preventDefault()
+    
+//     let title = document.getElementById("nama-id-nya").value(value itu dapat id)
+//     let content = document.getElementById("nama-id-nya").value(value itu dapat id)
+//     let image = document.getElementById("nama-id-nya").files(files dapet data file id)
+
+
+//     // let addBlog = {
+//     //     title,
+//     //     content,
+//     //     image
+//     // }
+
+ //----- mau dorong data AddBlogs ke blogs
+// blog.push(addBlogs)
+
+//console.log(blogs)
+
+//    }
+
+
+//(_showData itu adalah nama didalam html_)
+function showData() {
+    document.getElementById("contents").innerHTML = ""
+
+    for(let i=1; i <= blogs.length; i++)
+}

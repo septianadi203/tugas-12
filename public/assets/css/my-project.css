@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(206, 206, 206) !important;
+}
+
+/*Nav bar important*/
+
+
+.btn {
+    background-color: rgb(9, 10, 48) !important;
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+    text-decoration-line: none;
+  }
+
+ .nav-link {
+    color: #000000;
+    font-size: 20px !important;
+ }
+
+ /*Navbar sape sini*/
+
+
+/*form {
+    width: 350px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* header */
+
+/*nav {
+    display: flex;
+    background-color:#6b6a6a;
+   padding: 18px;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+
+}
+
+nav ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+nav ul li .active{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.imglogo {
+    width: 32px;
+    margin-right: 24px;
+}
+
+.item-left{
+    flex: 50%
+}
+
+.item-right{
+    flex: 50%;
+    text-align: end;
+    margin-right: 30px;
+}
+
+.item-right a {
+    text-decoration: none;
+    padding: 8px 20px;
+    background-color: rgb(9, 10, 48);
+    color: white;
+    border-radius: 5px;
+}
+
+
+.header {
+    width: 100%;
+    padding: 20px 0;
+}
+
+/* isiannya */
+
+/*input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.h1 {
+    width: 100%;
+    text-align: center;
+    margin: 30px;
+}
+
+/* Project name*/
+/*.project-name {
+    display: flex;
+    flex-direction: column;
+
+}
+
+ /* Tanggal dari-sampai*/
+
+/*.datamasuk{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.data-masuk{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Deskripsi */
+
+/*.deskripsi {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    resize: none;
+}
+
+
+
+/* pilihan javascript,nodeJs, dll */
+
+/*.container-pilihan{
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 150px auto;
+    font-display: flex;
+    width: 100%;
+
+}
+.kartu-pilihan{
+    display: flex;
+    width: 50px;
+    padding-right: 50px;
+}
+.nama-kartu-pilihan{
+    font-size: 15px;
+    font-weight: 10px;
+    margin: auto;
+    
+}
+
+/* tempat upload*/
+
+/*.upload{
+    display: flex;
+    flex-direction: column;
+
+}
+.upload input-upload {
+    height: 23px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+}
+
+label {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* tombol submit*/
+
+/*button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 7px 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: right;
+    cursor: pointer;
+    border-right: 100%;
+    float: right;
+    margin-top: 10px;
+    
+}
+
+.upload input {
+    border: none;
+    border-radius: 7px;
+}
+
+/* MY PROJECT yg bawah*/
+
+/*.container-box {
+    margin-top: 60px;
+    display: flex;
+    flex: none;
+    justify-content: center;
+    
+}
+
+.container {
+    width: 400px;
+    padding-bottom: 50px;
+}
+
+
+.container h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.container-project {
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+    padding: 10px;
+}
+
+.container-project h1 {
+    margin-top:10px;
+    text-align: center;
+    font-size: 32px;
+}
+
+
+.card-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 30px 0 30px 0;
+    border: solid 1px #dbdbdb;
+    width: 300px;
+    height: 360px;
+}
+
+.blog-image img {
+    height: 200px; width: 290px;
+    border-radius: 10px;
+    margin: 5px 0 0 5px;
+}
+
+.title {
+    margin: 10px 0 0 5px;
+    font-size: 12px;
+}
+
+/* dekorasi setelah input*/
+/*.title a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.durasi {
+    font-size: 14px;
+    color: #868282;
+    margin: 0 0 0 5px;
+}
+
+.deskripsi {
+    font-family: sans-serif;
+    margin: 10px 0 0 5px;
+}
+
+.technologies {
+    font-family: sans-serif;
+    margin: 10px 0 0 5px;
+}
+
+.btn-group {
+    margin-right: 14px;
+    justify-content:center;
+    margin: left 10px;
+
+}
+
+.btn-group .btn {
+
+    padding: 5px 50px;
+    margin: 10px 0 10px 10px;
+    background-color: #111727;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+/*---------------------------*/
+
+/*.content-down > h1 {
+    margin: 0;
+}
+
+.project {
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.project_item {
+    background-color: white;
+    border-radius: 15px;
+    display: grid;
+    width: 20%;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 5px 20px #c1c4c7;
+}
+
+
+.project_img {
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+}
+
+#image {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    margin-top: 0;
+}
+
+.title {
+    padding: 0px;
+    margin: 0px;
+    justify-items: left;
+}
+
+.title a {
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    margin: 0px;
+    font-size:x-large;
+    font-weight: bold;
+}
+
+.duration {
+    color: #787a7b;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.desc {
+    color: #272929;
+}
+
+.technology > img {
+    width: 40px;
+}
+
+.btn-edit{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 7px 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: right;
+    cursor: pointer;
+    border-right: 100%;
+    float: right;
+    margin-top: 10px;
+}
+
+
+.btn-delete{
+
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 7px 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: right;
+    cursor: pointer;
+    border-right: 100%;
+    float: right;
+    margin-top: 10px;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}

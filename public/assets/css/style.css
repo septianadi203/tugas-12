@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    padding-bottom: 500px;
+    background-color: rgb(196, 193, 193) !important;
+}
+
+
+/*Nav bar important*/
+
+
+  /* .btn {
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+    text-decoration-line: none;
+  } */
+
+ /* .nav-link {
+    color: #000000;
+    font-size: 20px !important;
+ } */
+
+ /*Navbar sape sini*/
+
+ /* .dwn {
+    padding-left: 10px;
+ } */
+ /* .cv {
+    text-decoration: none;
+    text-decoration-line: none;
+    padding-left: 10px;
+    color: #000 !important;
+ } */
+
+/* .card-text {
+    padding-bottom: 20px;
+} */
+
+/* h5 {
+    text-decoration: none !important;
+    text-align: center !important;
+    text-decoration-line: none !important;
+} */
+
+
+/* .btn-edit{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 7px 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: right;
+    cursor: pointer;
+    border-right: 100%;
+    float: right;
+    margin-top: 10px;
+} */
+
+/* .btn-delete{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 7px 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: right;
+    cursor: pointer;
+    border-right: 100%;
+    margin-left: 12vh;
+    float: right;
+    margin-top: 10px;
+} */
+
+/* .btn-group {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between !important;
+} */
+
+/* .sosial-media {
+
+    padding-top: 40px;
+} */
+/* .icon {
+    text-decoration: none !important;
+} */
+
+/*nav {
+    display: flex;
+    background-color:#6b6a6a;
+   padding: 18px;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+
+}
+
+nav ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+nav ul li .active{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.imglogo {
+    width: 32px;
+    margin-right: 24px;
+}
+
+.item-left{
+    flex: 50%
+}
+
+.item-right{
+    flex: 50%;
+    text-align: end;
+    margin-right: 30px;
+}
+
+.item-right a {
+    text-decoration: none;
+    padding: 8px 20px;
+    background-color: rgb(9, 10, 48);
+    color: white;
+    border-radius: 5px;
+}
+
+.coco a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.container-satu {
+    width: 800px;
+    border-radius: 10px;
+    margin: 100px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    color: rgb(5, 4, 4);
+    box-sizing: border-box;
+    display:flex;
+    justify-content:center;
+
+}
+
+.kolom-utama {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.kolom-kedua {
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 40px;
+    box-shadow: 0px 0px 10px ;
+    
+}
+
+button {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 21px;
+}
+
+.contact {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+h3 {
+    text-align: center;
+}
+h6 {
+    text-align: center;
+}
+
+.ig {
+    justify-content:space-between;
+}
+
+.img-2 {
+    width: 200px;
+    display:flex;
+    border-radius: 5px;
+
+}
+
+.lorem{
+    text-align: justify;
+}
+
+
+/*My-Project bawah*/
+
+/*.card-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project {
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+    background-color: white;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+
+.container-project h1 {
+    margin-top:30px;
+    text-align: center;
+    font-size: 32px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project_item {
+    background-color: white;
+    border-radius: 15px;
+    display: grid;
+    width: 20%;
+    margin-top: 20px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 5px 20px #c1c4c7;
+}
+
+
+.project_img {
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+}
+
+#image {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    margin-top: 0;
+}
+
+.desc {
+    color: #272929;
+}
+
+.technology > img {
+    width: 40px;
+}
+.title {
+    padding: 0px;
+    margin: 0px;
+    justify-items: left;
+}
+
+.title a {
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    margin: 0px;
+    font-size:x-large;
+    font-weight: bold;
+}
+.duration {
+    color: #787a7b;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.description {
+    color: #272929;
+}
+
+.btn-edit{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 7px 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: right;
+    cursor: pointer;
+    border-right: 100%;
+    float: right;
+    margin-top: 10px;
+}
+
+.btn-delete{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 7px 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: right;
+    cursor: pointer;
+    border-right: 100%;
+    float: right;
+    margin-top: 10px;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}

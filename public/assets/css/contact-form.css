@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(206, 206, 206) !important;
+}
+
+/*Nav bar important*/
+
+.btn {
+    background-color: rgb(9, 10, 48) !important;
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+    text-decoration-line: none;
+  }
+
+ .nav-link {
+    color: #000000;
+    font-size: 20px !important;
+ }
+
+ /*Navbar sape sini*/
+
+
+/*form {
+    width: 350px;
+    margin: 50px auto;
+}
+
+div {
+    margin-top: 20px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: rgb(17, 13, 50);
+    color: white;
+    padding: 7px 25px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: right;
+    cursor: pointer;
+    border-right: 100%;
+    float: right;
+    
+}
+
+.h1 {
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+
+nav {
+    display: flex;
+    background-color:#6b6a6a;
+   padding: 18px;
+    align-items: center;
+}
+
+
+img {
+    width: 100%;
+
+}
+
+nav ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+nav ul li .active{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.imglogo {
+    width: 32px;
+    margin-right: 24px;
+}
+
+.item-left{
+    flex: 50%
+}
+
+.item-right{
+    flex: 50%;
+    text-align: end;
+    margin-right: 30px;
+}
+
+.item-right a {
+    text-decoration: none;
+    padding: 8px 20px;
+    background-color: rgb(9, 10, 48);
+    color: white;
+    border-radius: 5px;
+}
+
+
+.header {
+    width: 100%;
+    padding: 20px 0;
+}

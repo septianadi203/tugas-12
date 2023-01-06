@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(206, 206, 206) !important;
+}
+
+form {
+    width: 350px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Nav bar important*/
+
+
+.btn {
+    background-color: rgb(9, 10, 48) !important;
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+    text-decoration-line: none;
+  }
+
+ .nav-link {
+    color: #000000;
+    font-size: 20px !important;
+ }
+
+ .images {
+    width: 70px;
+ }
+
+ /*Navbar sape sini*/
+
+
+
+/* header */
+
+/*nav {
+    display: flex;
+    background-color:#6b6a6a;
+   padding: 18px;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+
+}
+
+nav ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+nav ul li .active{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.imglogo {
+    width: 32px;
+    margin-right: 24px;
+}
+
+.item-left{
+    flex: 50%
+}
+
+.item-right{
+    flex: 50%;
+    text-align: end;
+    margin-right: 30px;
+}
+
+.item-right a {
+    text-decoration: none;
+    padding: 8px 20px;
+    background-color: rgb(9, 10, 48);
+    color: white;
+    border-radius: 5px;
+}
+
+
+.header {
+    width: 100%;
+    padding: 20px 0;
+}
+
+/* isiannya */
+
+/*input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.h1 {
+    width: 100%;
+    text-align: center;
+    margin: 30px;
+}
+
+/* Project name*/
+/*.project-name {
+    display: flex;
+    flex-direction: column;
+
+}
+
+ /* Tanggal dari-sampai*/
+
+/*.datamasuk{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.data-masuk{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Deskripsi */
+
+/*.deskripsi {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    resize: none;
+}
+
+
+
+
+
+
+
+
+.logo{
+    width: 50px;
+}
+.btn-contact{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: white ;
+    transition: 0.5s;
+    border: 2px solid white;
+}
+.btn-contact:hover{
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    color: black;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.container-content{
+    display: flex;
+}
+.title-img{
+    width: 64%;
+}
+.title-img img{
+    width: 90%;
+    border-radius: 15px;
+}
+.duration h3{
+    font-size: 22px;
+}
+.content{
+    width: 36%;
+}
+.icon-calendar{
+    display: flex;
+}
+.icon-calendar img{
+    width: 50px;
+    margin-right: 20px;
+}
+.icon-calendar p{
+    font-weight: 500;
+}
+.icon-month{
+    display: flex;
+}
+.icon-month img{
+    width: 50px;
+    margin-right: 20px;
+}
+.icon-month p{
+    font-weight: 500;
+}
+.technologi{
+    margin-top: 50px;
+}
+.container-icon{
+    display: grid;
+    grid-template-columns: 170px auto;
+}
+.icon-tech{
+    display: flex;
+}
+.icon-tech img{
+    width: 50px;
+    margin-right: 20px;
+}
+.icon-tech p{
+    font-weight: 500;
+}
+.container-tect{
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.cotainer-text {
+    padding: 30px;
+    background-color: blue;
+}
+
+.container-text-in {
+    background-color: #dfdfdf;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 15px;
+    width: 100%;
+}
